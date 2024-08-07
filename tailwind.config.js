@@ -2,10 +2,16 @@
 export default {
   content: ["./public/index.html"],
   theme: {
-    extend: {
-      letterSpacing: {
-        spaci: ".5em",
-      },
+    container: {
+      center: true,
+      padding: "16px",
+    },
+    extend: {},
+    letterSpacing: {
+      spaci: ".5em",
+    },
+    screens: {
+      "2xl": "1320px",
     },
   },
   plugins: [],
